@@ -1,0 +1,63 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair-display-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", "Arial" serif;
+  font-weight: 400;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.site-main {
+  flex-grow: 1;
+}
+
+.hero-title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.hero-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* @media only screen and (max-width: 576px) {
+  .container {
+    padding: 35px;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  
+} */
