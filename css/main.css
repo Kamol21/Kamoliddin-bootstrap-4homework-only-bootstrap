@@ -49,7 +49,12 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 }
-
+.stp {
+  top: 2rem;
+}
+.site-footer {
+  background-color: #f9f9f9;
+}
 
 /* @media only screen and (max-width: 576px) {
   .container {
